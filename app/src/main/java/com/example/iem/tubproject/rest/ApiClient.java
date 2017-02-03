@@ -4,9 +4,8 @@ import android.content.Context;
 
 
 import com.example.iem.tubproject.Pojo.Line;
-import com.example.iem.tubproject.Pojo.Stop;
+import com.example.iem.tubproject.Pojo.Pass;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -45,17 +44,17 @@ public class ApiClient  {
 
     public static void getStops(int id, final Context context){
 
-        Call<List<Stop>> call =  getApiInterface().getStops(id);
+        Call<List<Pass>> call =  getApiInterface().getStops(id);
 
-        call.enqueue(new Callback<List<Stop>>() {
+        call.enqueue(new Callback<List<Pass>>() {
             @Override
-            public void onResponse(Call<List<Stop>> call, Response<List<Stop>> response) {
+            public void onResponse(Call<List<Pass>> call, Response<List<Pass>> response) {
 
 
             }
 
             @Override
-            public void onFailure(Call<List<Stop>> call, Throwable t) {
+            public void onFailure(Call<List<Pass>> call, Throwable t) {
 
             }
 
@@ -75,6 +74,26 @@ public class ApiClient  {
 
             @Override
             public void onFailure(Call<List<Line>> call, Throwable t) {
+
+            }
+
+        });
+    }
+
+
+    public static void getPass(final Context context){
+
+        Call<List<Pass>> call =  getApiInterface().getPass();
+
+        call.enqueue(new Callback<List<Pass>>() {
+            @Override
+            public void onResponse(Call<List<Pass>> call, Response<List<Pass>> response) {
+
+
+            }
+
+            @Override
+            public void onFailure(Call<List<Pass>> call, Throwable t) {
 
             }
 
