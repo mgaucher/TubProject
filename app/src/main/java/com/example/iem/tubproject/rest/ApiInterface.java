@@ -6,7 +6,9 @@ package com.example.iem.tubproject.rest;
 
 
 import com.example.iem.tubproject.Pojo.Line;
+import com.example.iem.tubproject.Pojo.Lines;
 import com.example.iem.tubproject.Pojo.Pass;
+import com.example.iem.tubproject.Pojo.Stop;
 
 import java.util.List;
 
@@ -20,16 +22,13 @@ import retrofit2.http.POST;
 public interface ApiInterface {
 
 
-    @FormUrlEncoded
-    @GET("/TubWebService/web/index.php/stops")
-    Call<List<Pass>> getStops(@Field("id") int id);
+    @GET("stops")
+    Call<List<Stop>> getStops();
 
-    @FormUrlEncoded
-    @POST("/TubWebService/web/index.php/lines")
-    Call<List<Line>> getLines();
+    @GET("lines")
+    Call<Lines> getLines();
 
-    @FormUrlEncoded
-    @POST("/TubWebService/web/index.php/pass")
+    @GET("pass")
     Call<List<Pass>> getPass();
 
 

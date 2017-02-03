@@ -39,7 +39,7 @@ public class CalculateActivity extends AppCompatActivity {
     // URL to get contacts JSON
     private static String url = "http://tubwebservice.local/index.php/bus/stop";
 
-    ArrayList<HashMap<String, String>> ligneList;
+    ArrayList<HashMap<String, String>> lineList;
 
 
 
@@ -55,7 +55,7 @@ public class CalculateActivity extends AppCompatActivity {
         setContentView(R.layout.activity_calculate);
 
 
-        ligneList = new ArrayList<>();
+        lineList = new ArrayList<>();
 
         lv = (ListView) findViewById(R.id.list);
 
