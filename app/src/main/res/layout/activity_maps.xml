@@ -34,10 +34,11 @@ android:background="#ffffff"/>
       />
 
     <Button
+        android:layout_marginLeft="@dimen/com_facebook_share_button_padding_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnCalculate"
-        android:layout_gravity="right"
+        android:layout_gravity="bottom"
         android:text="Calculer"
         android:background="#FF8000"
         />
