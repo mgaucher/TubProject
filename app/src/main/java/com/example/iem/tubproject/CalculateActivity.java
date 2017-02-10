@@ -43,14 +43,12 @@ public class CalculateActivity extends AppCompatActivity {
 
 
 
-    LoginButton loginButton;
     private String[] arraySpinner;
     Spinner s ;
-    private CallbackManager callbackManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FacebookSdk.sdkInitialize(this);
+
 
         setContentView(R.layout.activity_calculate);
 
@@ -80,12 +78,7 @@ public class CalculateActivity extends AppCompatActivity {
 
 
 
-        loginButton = (LoginButton) findViewById(login_button);
-        callbackManager = CallbackManager.Factory.create();
 
-        Profile profile = Profile.getCurrentProfile();
-//        Toast.makeText(getApplicationContext(), profile.getFirstName().toString(),
-//                Toast.LENGTH_SHORT).show();
 
 
     }

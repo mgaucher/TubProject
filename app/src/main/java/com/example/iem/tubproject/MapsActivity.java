@@ -61,7 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         btnTimeTable.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), HoraireActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HourlyActivity.class);
                 intent.putExtra("numligne",selectLine.getSelectedItem().toString());
 
                 startActivity(intent);

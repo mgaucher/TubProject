@@ -3,714 +3,696 @@
 
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4a36600281a648769411ef642c331851732bf29e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_e115d215e45db70dc648acb4de2a0554361fadbc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.1_689facca2ee7b871a4fa65f61b03c8886b72e1d7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.1_47825d679dcce4e882dc488e6895cf1d6e6836cb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/libs/opencsv-3.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="248d4d05fe253a02a05601978f7de1305b8a961e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/2/opencsv-3.8_45c9dd40d7f25618e127ee4c0ca13f78c36bf455/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_759d99122bedaa7d1e648b576609415d5924e016/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.6.1_2be229be8819b9a4817b43c818fb5156f062ad27/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.1_06559a64f95d26f031ed0aab22973bb08971d063/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_678292c5ba56f3c781d51d0d6d932c12bf58a417/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2e4755d9e4a7cd92021d38a695b71073ee92d948/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_13c3516b65f35cb52754b29f8fbb812beddd0454/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_047ce0a9c0282a93dfa7c22e2ca632a182882d0f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_a8a2bb612ff208d78378465cb926bf7951d460d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.1_4350d50541faf2a2dae48aab733c81eb6253d54c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_c1a3e07530b0518a41f57f583a9124d476e658e6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_59295af9f68dddaae24ff1fa37a154c480c143a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.6.1_5bc00f39d60946570f839f2ac0c772c92d218d85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.1_5fab27d4af010173b1aa1f98be7bfd2ea83b4ae0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.0_2311dfb02d523113ad6a6bd8761329f06bd5384d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.5.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.5.0_dd2e0e60eca8029922c3f3d95ccc72d65e86457f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_072d28627578c4c46775e42af59c02140d95740f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_426e495612e73bef3a8feb36306818ee14d6d831/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_790f90428804dfe1487905f254006636f060bfb6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.1_0fabe4c6ea6dc0c026f619e819895582a47a980f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.6.1_29cb0c5c77efb5bc651cf2acd88bf61610f3e941/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.1_9c19b3bb4ed4db5ff98a59863b4753e437925bd6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.1_f691b799bd6965e8e6a2c94f7df3d05661013234/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.6.1_82a2b4323525c69677834b2864613e52ca4ac1a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.1_ef55fb1afe5b257c07da1922d30c20a64de7c8c2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_6591e6094ee212519bf9ed46866a671f2e581574/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_80f122e8cca204b4eaac062455e28d1e99fcf16a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_15d7549cf8c4bf3c5e33f816d756291860ac52d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_cdd8b642a191a3848f1f502185ecd335e64cd9be/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_5bc7d454b781bbd8b9d8c0a485e582c7039a737d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_ae1a5a4f67088339a5b356012e139c73fd72f16c/classes.dex" />
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.1_42beda5d3a30de6ecde49bf3bf67654a2efd9492/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_86cd92b7c7f287dd5baa603228d75a2d05c58e31/classes.dex" />
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.1_f7e8f8515de587cde8769d9ef62a07c5af8a9b57/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_5e003d1697306abca2f21eaf79fe30c4f2db69ff/classes.dex" />
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.1_d415bbffef184db537964d01692c4e28b7fb90e3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f344fb6f04b40e2424504fe1a7addbf033139194/classes.dex" />
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.1_da6ae744423cdcba16621f751278d1d015d2cac2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4.4/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_6819351e187143597aaf27e5f989a1cd5b604640/classes.dex" />
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.maps.android-android-maps-utils-0.4.4_e4b185e61268af48a079c7de9c3eccf8adcc5637/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_a613d44c517e3086829b3c0f87e11688445e5bb8/classes.dex" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_dda6c5b108f168dfae8ddd21ed6040090312847d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/libs/opencsv-3.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_df8dd8c3d662eea7050bb1500e3c85e9589b67e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_cfef7a7f4993664d33a980bc0a020154de473d62/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7c180903789da4a0b69c8eb9550ef3f5cb3c060b">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d938017ac71adad78c8ae480e22cc768902aaa8c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_c73a032871e65abb36019e5aaff933d95a76eac5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_9a2ce6e3dbd65f202f320b8dc7a4ddaca60bb893/classes.dex" />
+        sha1="248d4d05fe253a02a05601978f7de1305b8a961e">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/2/opencsv-3.8_e3994643d643956902e96d6ce3cfb24fc1d20047/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_16627a05c804f7d0b6aaa2c288989ff8ed3a0806/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_16627a05c804f7d0b6aaa2c288989ff8ed3a0806/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_4f78d0042ee7fbc4324c184d51bb89593fd897f5/classes.dex" />
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.1_733a29fe58d9b8e6f50dada9e3b603ae4b40fb2c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.6.1_890a1ac8b53ed73291c207271878976c59f23cda/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_31aa31bc55d400d43582a37d5156cc4a83528598/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.6.1_b064e3f621377c69ad297e32281749bec269e8c6/classes.dex" />
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.1_9810e8e35663d9a20626e8c505b2c065c62591f7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4.4/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.maps.android-android-maps-utils-0.4.4_0507ea79d09e3e1e912d72bc825f11f72e58f9f0/classes.dex" />
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.1_5e165ce62a14836e6454d9cee1f66f1cc5999414/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="babb25794a7599069d34705038744c5760a9a88c">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.6.1_9013af4777eb84a2e3984a2ed31b4c921f2df571/classes.dex" />
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_9486d3dbae05a9325afedc7ceed38d65edf58a2a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="2a18547ea91d258866d132c2a763185f15b01b25">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_f6e035c026bcc854e0f150dd8acb09196f6c2ddf/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_86691b9b9694fbbcec6e1074605aff5a519a58e4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.1_603e5b0387f67de8e7cad78c4291cb6f4099d4da/classes.dex" />
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.1_9116099af13638612231f62df9626f7ae79fdb43/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_809b5bbe87098ab171a870214be280f43c892d9b/classes.dex" />
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.1_7384b1f5359a75441e92dfaeea08d9e80ec5c0b4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="beae4941c9a8775098b1a424b9aec52fc5865fa9">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d02f2d0fa1a747938b4bfc74cb304dd8e7501549/classes.dex" />
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_cb717e48f30c510f6cbc0c6c94f649b990ab86fe/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.1_e90d3ea51935e7b911a2cac077ee647de1d3d92e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d85dc9bdde6a796bf8c6d2e9fdbe78072820e33f/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fe9b35086a216891e5df1e160df0274b9206cde5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.6.1_f85ebc00c710788c284422da7edb7a4b4d6650e0/classes.dex" />
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.6.1_1813483c9ce3937790cb6803c808a700c93fdf41/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.1_0988d35d653e7838206a80856c30296032a993cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_602df59655e9667f06ed08a75f07ad4b6eb310d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_c1eab3aa69aede9bf2cd03bc24f0aca1877cc9ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.6.1_8480994daa6f47235a5d68beb4b8ef9495b0a5b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.1_d773d30a4c082232cec0130c176a4987596ff56a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_bb3e9328d613d8126fec601a71b76adb36bb7bc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_c53cf37b1499969bd36b4a791c39369c160e5732/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7556b0bfab6a27baea254187b6447924e84a2a0d/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_17156de1a1371995a5ba1c884dd6db3f6766556e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_c80cb5e639a03fd974225828a5360770f580514c/classes.dex" />
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_c172a29677106a400aaef3c5f8aaae18ec0fcf7c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="518adc52081d41724932b41bc132e4d50a352b86">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.1_3257acc914956303f805a18029c32968d357b611/classes.dex" />
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_dde10bf0488586f1fe12a7d37cda8895bb9745e9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.5.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="ac8365c87591065db07f7bac8551504504832cd4">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_f238ac1fb279011126f1a0a5fcc0bc349f296898/classes.dex" />
+        sha1="15ad6a46fb8e2ed86556e0b330d738b589dc62c7">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.5.0_99a66a6664315fdd696c3d51cfeb389e0a845e3c/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_44d7826dd788effc37f46552af77208e220b5ca9/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_44d7826dd788effc37f46552af77208e220b5ca9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="a76a6983a23788b3689524d4bed763955afbd306">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.1_6612306b21b24ce34cff180dd0b7a94b6d08b8b8/classes.dex" />
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_691fdc7d040d1ea2b518877407567ea058c24a5d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.1_3bfcd57b14c71cb6b8b4191d309ac1d6a8b6f65b/classes.dex" />
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_8c360acd2045ceb7ca7da446c0434b51a89df592/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_81d2d5ffb76d523e8bd0514664f2b3610c261a6b/classes.dex" />
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_c80cb5e639a03fd974225828a5360770f580514c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_9754d998bed634716758596526c5dcb78d1d27ec/classes.dex" />
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_426e495612e73bef3a8feb36306818ee14d6d831/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.1_e63031ac7522c991987a0fe72160c48cec0449dc/classes.dex" />
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_a9f10f8c7cfb4fb33af8898d883c3a74cb97a745/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.6.1_3b9c762f5c92cf97891ef973cdbbe97e93ff987e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.1_7bf4269cfb4c608a3ed5692a5caef1657180bd0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_3d401dd2ad13064923698d67ad6778e6aafd4b3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f840023790a5aa0e3d3b0a6d55e72bc2b5855e93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.6.1_259b1dff6ae5bfbf096ca21dec13332ca3fec9ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.1_86734f9cc73acda658cda9c69742171b5b3d698a/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.1_d8d681797c7355acc7541a568b26d2b040f6e98e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.1_5b2f7e358f13c4402043cf168fc4ce9d163749c9/classes.dex" />
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_f4e47e3e80dd5ce0d7c9c79858dac921f87cb242/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.1_466522c3da2ebf914aabeef565f64c15f419dc07/classes.dex" />
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.6.1_2785715c36befdd2da44c42afc7f4d8c5ffa511d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_e68d1ce147719ac50f3b0e85f0aa925ed2bb46df/classes.dex" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_1561c3a5f8ccf3f85649767b8c9d050ae2558894/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_05c322e9aeb41b10ab327540f4cf927db86feea1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_bf4192d5f98ac35c010f5bce542b9acbb8efedc5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.1_e5b11ddc89ac22a4401eb1a73e0d3915f42b8046/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.1_b67b6e88ec7fb39aecb5d97958bb6397e7b0cd81/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a136366045678579300d161de97c2211c4c4f7a0">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.1_61c3832170326c97589833c6c22f5fa631b035e1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_221e56e40ceb91da94fad27cc52f9069e7c68df3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.1_d920c0f38cb5cc81fc34d0d8092d1153572a5fc2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_afed45c3fddab1f746b160e98f8dc2fc562dfdc5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.1_382099a605b6d2d3abab8a43647a3026c18f8ca3/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.1_fcfacca7f80bca563308b70c55ff5cbec8fef8ed/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_aa691cad9a958f2cfd03ed717cdbf286e9b1903e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_060cd7380ad6105e2eb46d334e7b684a08e9a54c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_6591e6094ee212519bf9ed46866a671f2e581574/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_fa664b4e93cc0d534bc27bc89c4328bfa47218e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_6130327af5f64ea7bee016f4726ed6249272a3a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.1_ecc423729c95e78694a56d9cd3f870b0a93c1e7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.6.1_da18c976554b84dc0770b633e617aaa7eb441039/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
-        <dex dex="/Users/iem/AndroidStudioProjects/TubProject 3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.1_32afa7249ea211158b09eaae89d9224b73345ecc/classes.dex" />
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.1_4c430f6a803e846d88be9ae65a4c134afd5d6567/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ba8a8ce52290f75ea929704102b56aecdb99bd84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.1_e1d720f1918335eae485e43aa5bad648b5f61645/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.1_69b1e6b4270bd656ebaf03f5530f668c1eb623bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_b111e611acc061eb5bab4aa28d0a32acab37a646/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_13d8ba595ba4b0b1480f9c708a9b42054647e652/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.1_6d5bedb0ff69fc2a0bd4e625ced8a80503704056/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.6.1_4426c7e320029c34ee747f83096d7186af86a2bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2e4755d9e4a7cd92021d38a695b71073ee92d948/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.1_37c29a63a822f8abb9743e52670221b986762b78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_9968a8893ae2168ed6345c649d27087f28206f29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_28a4182e5edce5e5fef332711c2633ac06d473f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_63ad7ef279d56b010a179d2f78659f680a85bd9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_95db0a4c8d7c07992717a6d7d0428ec9da0308cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.0_2311dfb02d523113ad6a6bd8761329f06bd5384d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_223d3f559a1527b78459496890bfdafbacbbb489/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_3484df1745a567785045fc84a7435d3bffd9c8a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.1_e2a6fa7e58e4f565735f3a6dd0faa0722b7c0de0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.6.1_9e39bcc65dcaf595295e168b2890fdc22d8f01ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f5890b7374dd289b7e9cc1aef473c116a58834cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.1_4e33bd48ce1b2d848b7a86734badf55aa75af9bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="/Users/iem/AndroidStudioProjects/TubProject/TubProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_bac717553d633f43f5219911af90a2b3687bfa36/classes.dex" />
     </item>
 
 </items>
