@@ -86,7 +86,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                     R.array.LigneBusArray, android.R.layout.simple_spinner_item);
             // Specify the layout to use when the list of choices appears
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
             // Apply the adapter to the spinner
             selectLine.setAdapter(adapter);
 
@@ -170,7 +170,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
                             break;
                         }
-                        case "touteleslignes": {
+                        case "toutesleslignes": {
                             try {
                                 mMap.clear();
                                 KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne1, getApplicationContext());

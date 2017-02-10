@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Red</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+
+    <style name="AppTheme.spinner" parent="@android:style/Theme.Light">
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+    <style name="SpinnerItem">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingTop">@dimen/padding_item_list</item>
+        <item name="android:paddingBottom">@dimen/padding_item_list</item>
+        <item name="android:textSize">@dimen/height_text_item_list</item>
+    </style>
+    <style name="SpinnerDropDownItem">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
 </resources>

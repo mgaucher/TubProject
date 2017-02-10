@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapsActivity" >
+    tools:context=".MapsActivity">
 
     <fragment
         android:id="@+id/map"
@@ -13,35 +13,36 @@
         tools:context="com.example.iem.tubproject.MapsActivity" />
 
     <Spinner
-android:id="@+id/spinnerline"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:ellipsize="end"
-android:textColor="#000000"
-android:textSize="14dp"
-android:background="#ffffff"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/spinnerline"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnTimeTable"
-        android:layout_gravity="bottom"
-        android:text="Horaire"
-        android:background="#FF8000"
-      />
+        android:theme="@style/AppTheme.spinner"
+        android:textAlignment="center" />
 
-    <Button
-        android:layout_marginLeft="@dimen/com_facebook_share_button_padding_right"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnCalculate"
-        android:layout_gravity="bottom"
-        android:text="Calculer"
-        android:background="#FF8000"
-        />
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTimeTable"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+            android:text="Horaire"
+            android:theme="@style/AppTheme.Button" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="7dp"
+            android:drawableLeft="@android:drawable/ic_menu_add"
+            android:text="Calculer"
+            android:theme="@style/AppTheme.Button" />
+    </LinearLayout>
 
 </FrameLayout>
