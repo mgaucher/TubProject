@@ -13,6 +13,21 @@
         <item name="android:textColor">@color/White</item>
     </style>
 
+    <style name="AppTheme.Login_button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Green</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="AppTheme.ContinueWhithoutLog_button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Grey</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Green</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
 
     <style name="AppTheme.spinner" parent="@android:style/Theme.Light">
         <item name="android:spinnerItemStyle">@style/SpinnerItem</item>

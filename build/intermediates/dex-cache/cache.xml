@@ -385,7 +385,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="0a2a529698c7760563abef97e3b5d283f6ff3b27">
+        sha1="91c23c2380c782fe84b2b3bf07b28efa493220ce">
         <dex dex="D:\Development\Android\TubProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f63deb1fdf79f2824d090346c2eec1e07ca037a8\classes.dex" />
     </item>
     <item
@@ -511,7 +511,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c26f0773930d10076ecebcef6125aebeebf5a111">
+        sha1="8adebd2ed990002adf0e1d7d0c882ff45098c47a">
         <dex dex="D:\Development\Android\TubProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3eaa40b2439cdbffc8b5713b348bf61ce69dce92\classes.dex" />
     </item>
     <item

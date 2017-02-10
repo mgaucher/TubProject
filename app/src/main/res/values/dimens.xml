@@ -4,4 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="height_text_item_list">24dp</dimen>
     <dimen name="padding_item_list">14dp</dimen>
+    <dimen name="padding_btn_log">50dp</dimen>
 </resources>
