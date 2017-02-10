@@ -18,5 +18,23 @@
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp" />
 
+        <Button
+            android:text="Valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="79dp"
+            android:id="@+id/btnValidate"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Continuer sans se connecter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:id="@+id/btnContinueWithoutLogin"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
 
