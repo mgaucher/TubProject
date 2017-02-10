@@ -108,7 +108,6 @@ public class ApiClient  {
             public void onFailure(Call<Lines> call, Throwable t) {
 
             }
-
         });
     }
 
