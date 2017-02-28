@@ -8,7 +8,7 @@ import android.content.Context;
 
 import java.util.List;
 
-import com.example.iem.tubproject.Pojo.Line;
+import com.example.iem.tubproject.Models.Line;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

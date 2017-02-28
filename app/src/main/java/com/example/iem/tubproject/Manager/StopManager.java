@@ -1,6 +1,6 @@
 package com.example.iem.tubproject.Manager;
 
-import com.example.iem.tubproject.Pojo.Stop;
+import com.example.iem.tubproject.Models.Stop;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

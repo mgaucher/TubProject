@@ -1,4 +1,4 @@
-package com.example.iem.tubproject.Pojo;
+package com.example.iem.tubproject.Models;
 
 import java.util.List;
 

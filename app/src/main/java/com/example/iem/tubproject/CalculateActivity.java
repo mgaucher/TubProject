@@ -1,85 +1,121 @@
 package com.example.iem.tubproject;
 
-import android.app.ProgressDialog;
-import android.content.Intent;
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
+import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.facebook.CallbackManager;
-import com.facebook.FacebookSdk;
-import com.facebook.Profile;
-import com.facebook.login.widget.LoginButton;
+import com.example.iem.tubproject.Models.Line;
+import com.example.iem.tubproject.Models.Stop;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
+import static android.R.attr.data;
+import static com.example.iem.tubproject.rest.ApiClient.getApiInterface;
 
 
 public class CalculateActivity extends AppCompatActivity {
 
-    private String TAG = CalculateActivity.class.getSimpleName();
+    Spinner spChooseLigne ;
+    Spinner spStartStop;
+    Spinner spFinishStop;
 
-    private ProgressDialog pDialog;
-    private ListView lv;
-
-    // URL to get contacts JSON
-    private static String url = "http://tubwebservice.local/index.php/bus/stop";
-
-    ArrayList<HashMap<String, String>> lineList;
-
-
-
-    private String[] arraySpinner;
-    Spinner s ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        getLines(this);
+
 
         setContentView(R.layout.activity_calculate);
+        spChooseLigne = (Spinner) findViewById(R.id.SpinchooseLigne);
+        spStartStop = (Spinner) findViewById(R.id.SpinchooseLigne);
+        spChooseLigne.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Line line = (Line)spChooseLigne.getSelectedItem();
+                getStopById(line.getIdLine(),getApplicationContext());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
 
-        lineList = new ArrayList<>();
+    }
 
-        lv = (ListView) findViewById(R.id.list);
+    public void getLines(final Context context) {
 
+        Call<List<Line>> call = getApiInterface().getLines();
 
-        ArrayAdapter<String> adapter;
-        List<String> list;
-        list = new ArrayList<String>();
-        list.add("Item 1");
-        list.add("Item 2");
-        list.add("Item 3");
-        list.add("Item 4");
-        list.add("Item 5");
+        call.enqueue(new Callback<List<Line>>() {
+                         @Override
+                         public void onResponse(Call<List<Line>> call, Response<List<Line>> response) {
+                             if(response.body().size() == 0)
+                             {
+                                 Toast.makeText(context,"Pas de ligne disponible",
+                                         Toast.LENGTH_LONG).show();
+                             }
+                             else
+                             {
+                                 spChooseLigne = (Spinner) findViewById(R.id.SpinchooseLigne);
+                                 ArrayAdapter spinnerArrayAdapter = new ArrayAdapter(context,
+                                         android.R.layout.simple_spinner_item, response.body());
+                                 spChooseLigne.setAdapter(spinnerArrayAdapter);
+                             }
+                         }
 
+                         @Override
+                         public void onFailure (Call < List < Line >> call, Throwable t){
+                             Toast.makeText(context,"Erreur lors de la récupération des données",
+                                     Toast.LENGTH_LONG).show();
+                         }
 
-        s = (Spinner) findViewById(R.id.etDepart);
+                     }
 
+        );
+    }
+    public void getStopById(String idLine,final Context context) {
 
-        adapter = new ArrayAdapter<String>(getApplicationContext(),
-                android.R.layout.simple_spinner_item, list);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        s.setAdapter(adapter);
+        Call<List<Stop>> call = getApiInterface().getStopById(idLine);
 
+        call.enqueue(new Callback<List<Stop>>() {
+                         @Override
+                         public void onResponse(Call<List<Stop>> call, Response<List<Stop>> response) {
+                             if(response.body().size() == 0)
+                             {
+                                 Toast.makeText(context,"Pas d'arrêt disponible",
+                                         Toast.LENGTH_LONG).show();
+                             }
+                             else{
+                                 spStartStop = (Spinner) findViewById(R.id.etDepart);
+                                 spFinishStop= (Spinner) findViewById(R.id.etArrivee);
+                                 ArrayAdapter spinnerArrayAdapter = new ArrayAdapter(context,
+                                         android.R.layout.simple_spinner_item, response.body());
+                                 spStartStop.setAdapter(spinnerArrayAdapter);
+                                 spFinishStop.setAdapter(spinnerArrayAdapter);
+                             }
 
+                         }
 
+                         @Override
+                         public void onFailure (Call < List < Stop >> call, Throwable t){
+                             Toast.makeText(context,"Erreur lors de la récupération des données",
+                                     Toast.LENGTH_LONG).show();
+                         }
 
-
-
+                     }
+        );
     }
 
     /*
@@ -100,7 +136,6 @@ public class CalculateActivity extends AppCompatActivity {
     * */
 
 
-
-
-
 }
+
+

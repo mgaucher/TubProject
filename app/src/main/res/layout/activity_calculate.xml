@@ -13,7 +13,20 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisir une ligne"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:id="@+id/SpinchooseLigne"/>
+</LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,10 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="150dp"
-                android:id="@+id/etDepart">
-
-            </Spinner>
-
+                android:id="@+id/etDepart"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -77,7 +87,7 @@
 
         <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal">
             <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:gravity="center" android:layout_width="match_parent" android:orientation="vertical">
-                <Button android:text="Calculer" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+                <Button android:text="Calculer" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
                 <ListView
                     android:id="@+id/list"
                     android:layout_width="fill_parent"

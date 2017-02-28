@@ -5,10 +5,10 @@ package com.example.iem.tubproject.rest;
  */
 
 
-import com.example.iem.tubproject.Pojo.Line;
-import com.example.iem.tubproject.Pojo.Lines;
-import com.example.iem.tubproject.Pojo.Pass;
-import com.example.iem.tubproject.Pojo.Stop;
+import com.example.iem.tubproject.Models.Line;
+import com.example.iem.tubproject.Models.Lines;
+import com.example.iem.tubproject.Models.Pass;
+import com.example.iem.tubproject.Models.Stop;
 
 import java.util.List;
 
@@ -26,10 +26,20 @@ public interface ApiInterface {
     Call<List<Stop>> getStops();
 
     @GET("lines")
-    Call<Lines> getLines();
+    Call<List<Line>> getLines();
 
     @GET("pass")
     Call<List<Pass>> getPass();
+
+    @FormUrlEncoded
+    @POST("stopbyid")
+    Call<List<Stop>> getStopById(@Field("id") String idLine);
+
+    @FormUrlEncoded
+    @POST("getNextStop")
+    Call<List<Stop>> getNextStop(@Field("idLine") String idLine,@Field("idStop") String idStop);
+
+
 
 
 }

@@ -1,7 +1,6 @@
-package com.example.iem.tubproject.Pojo;
+package com.example.iem.tubproject.Models;
 
 
-import com.example.iem.tubproject.Manager.LineManager;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -20,6 +19,16 @@ public class Line {
     @SerializedName("nameLine")
     @Expose
     private String nameLine;
+
+    public Line(String idLine,String nameLine){
+        this.idLine = idLine;
+        this.nameLine = nameLine;
+    }
+
+    public String toString()
+    {
+        return( idLine + " (" + nameLine + ")" );
+    }
 
     public String getIdStop() {
         return idStop;

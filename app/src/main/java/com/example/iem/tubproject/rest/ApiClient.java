@@ -1,16 +1,12 @@
 package com.example.iem.tubproject.rest;
 
-import android.content.Context;
 import android.util.Log;
 
 
-import com.example.iem.tubproject.Manager.LineManager;
-import com.example.iem.tubproject.Pojo.Line;
-import com.example.iem.tubproject.Pojo.Lines;
-import com.example.iem.tubproject.Pojo.Pass;
-import com.example.iem.tubproject.Pojo.Stop;
+import com.example.iem.tubproject.Models.Lines;
+import com.example.iem.tubproject.Models.Pass;
+import com.example.iem.tubproject.Models.Stop;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -86,30 +82,7 @@ public class ApiClient  {
         });
     }*/
 
-    public static void getLines() {
 
-        Call<Lines> call = getApiInterface().getLines();
-
-        call.enqueue(new Callback<Lines>() {
-            @Override
-            public void onResponse(Call<Lines> call, Response<Lines> response) {
-
-                Lines l = response.body();
-                int taille = l.ligne.size();
-                Log.d("Count", "value: " + taille);
-
-                //int taille = response.body().size();
-                //Log.d("Count", "value: " + taille);
-                Log.d("Response Lines", "value: " + response);
-
-            }
-
-            @Override
-            public void onFailure(Call<Lines> call, Throwable t) {
-
-            }
-        });
-    }
 
 
     public static void getPass(){

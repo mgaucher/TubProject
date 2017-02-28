@@ -1,4 +1,4 @@
-package com.example.iem.tubproject.Pojo;
+package com.example.iem.tubproject.Models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -21,6 +21,11 @@ public class Stop {
     @SerializedName("longitude")
     @Expose
     private String longitude;
+
+    public String toString()
+    {
+        return(nameStop);
+    }
 
     public String getIdStop() {
         return idStop;

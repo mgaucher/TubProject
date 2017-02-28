@@ -2,7 +2,7 @@ package com.example.iem.tubproject.Manager;
 
 import java.util.List;
 
-import com.example.iem.tubproject.Pojo.Pass;
+import com.example.iem.tubproject.Models.Pass;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

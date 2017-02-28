@@ -37,7 +37,6 @@ public class HourlyActivity extends AppCompatActivity {
 
 
         //Appel VIA RetroFit des données, mode test
-        ApiClient.getLines();
         ApiClient.getPass();
         ApiClient.getStops();
 
