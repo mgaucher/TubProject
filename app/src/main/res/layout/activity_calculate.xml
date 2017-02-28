@@ -79,20 +79,25 @@
                     android:layout_height="wrap_content"
                     android:text="Travail"
                     android:id="@+id/btnTravail"/>
-
-
             </LinearLayout>
+
 
         </LinearLayout>
 
-        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal">
+
             <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:gravity="center" android:layout_width="match_parent" android:orientation="vertical">
-                <Button android:text="Calculer" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-                <ListView
-                    android:id="@+id/list"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
+                <TimePicker
+                    android:scaleY="0.7"
+                    android:scaleX="0.7"
+                    android:id="@+id/timePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-32dp"
+                    android:layout_marginBottom="-32dp"
+                    />
+
+                <Button android:text="Calculer" android:id="@+id/btnCalculate" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
     </LinearLayout>
