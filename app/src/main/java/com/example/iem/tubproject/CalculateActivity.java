@@ -81,7 +81,7 @@ public class CalculateActivity extends AppCompatActivity {
                     Toast.makeText(CalculateActivity.this,"Veuillez renseigner toute les informations",
                             Toast.LENGTH_LONG).show();
                 }
-                // force the timepicker to loose focus and the typed value is available !
+                // force the timepicker to loose focus and the typed value is available
 
             }
         });
