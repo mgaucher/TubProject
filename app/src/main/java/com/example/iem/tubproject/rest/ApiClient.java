@@ -22,6 +22,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient  {
 
+    //Retrofit
+
     public static final String BASE_URL = "http://138.68.89.183/TubWebService/web/index.php/";
     private static Retrofit retrofit = null;
 
