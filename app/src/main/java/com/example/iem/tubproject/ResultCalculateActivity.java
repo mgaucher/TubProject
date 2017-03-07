@@ -14,8 +14,6 @@ public class ResultCalculateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_calculate);
 
-
-
         Intent myIntent = getIntent();
         String startStop = myIntent.getStringExtra("startStop");
         String finishStop= myIntent.getStringExtra("finishStop");
@@ -38,12 +36,22 @@ public class ResultCalculateActivity extends AppCompatActivity {
         Button btnMap = (Button) findViewById(R.id.btnMap);
 
         btnMap.setOnClickListener(new View.OnClickListener() {
-                                      @Override
-                                      public void onClick(View v) {
-                                          Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
-                                          startActivity(intent);
-                                      }
-                                  });
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnBackCalcul = (Button) findViewById(R.id.btnBackCalcul);
+
+        btnBackCalcul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CalculateActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

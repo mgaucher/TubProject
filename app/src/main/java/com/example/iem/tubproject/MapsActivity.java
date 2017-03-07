@@ -18,17 +18,11 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
-/** Connection / récupérer json
- Retrofit
 
- Objet from db
- DBFlow
-**/
  private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
@@ -39,16 +33,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(final GoogleMap googleMap) {
 
@@ -65,7 +49,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 intent.putExtra("numligne",selectLine.getSelectedItem().toString());
 
                 startActivity(intent);
-
 
             }
 

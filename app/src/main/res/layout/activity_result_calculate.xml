@@ -28,75 +28,92 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ligne 5"
             android:textSize="30dp"
             android:layout_marginBottom="25dp"
             android:layout_gravity="center"
             android:id="@+id/txtViewLine"
             />
+
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:text="Départ : "
-                android:textSize="26dp"
+            android:orientation="vertical">
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
 
-                android:id="@+id/textView" />
+                <TextView
+                    android:text="Départ : "
+                    android:textSize="26dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView" />
 
-            <TextView
-                android:text="14h02"
-                android:textSize="24dp"
-                android:layout_marginRight="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true"
-                android:id="@+id/txtViewTimeStart" />
+                <TextView
+                    android:text="14h02"
+                    android:textSize="24dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#DF3A01"
+                    android:id="@+id/txtViewTimeStart" />
 
 
+            </LinearLayout>
             <TextView
                 android:textSize="20dp"
                 android:text="Lorem ipsum "
+                android:textColor="#FF8000"
+                android:layout_marginLeft="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/txtViewStopStart"/>
-
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:text="Arrivée : "
-                android:textSize="26dp"
+            android:orientation="vertical">
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true"
-                android:id="@+id/textView2" />
+                android:orientation="horizontal">
+                <TextView
+                    android:text="Arrivée : "
+                    android:textSize="26dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/textView2" />
 
-            <TextView
-                android:text="19h50"
-                android:textSize="24dp"
-                android:layout_marginRight="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true"
-                android:id="@+id/txtViewTimeFinish" />
+                <TextView
+                    android:text="19h50"
+                    android:textSize="24dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#DF3A01"
+                    android:id="@+id/txtViewTimeFinish" />
+
+
+
+            </LinearLayout>
             <TextView
                 android:text="Lorem ipsum "
                 android:textSize="20dp"
+                android:textColor="#FF8000"
+                android:layout_marginLeft="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/txtViewStopFinish"/>
-
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="wrap_content"

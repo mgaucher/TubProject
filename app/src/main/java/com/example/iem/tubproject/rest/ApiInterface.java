@@ -7,11 +7,8 @@ package com.example.iem.tubproject.rest;
 
 import com.example.iem.tubproject.Models.CalculatedPath;
 import com.example.iem.tubproject.Models.Line;
-import com.example.iem.tubproject.Models.Lines;
 import com.example.iem.tubproject.Models.Pass;
 import com.example.iem.tubproject.Models.Stop;
-
-import java.util.Date;
 import java.util.List;
 
 import retrofit2.Call;
@@ -40,8 +37,4 @@ public interface ApiInterface {
     @FormUrlEncoded
     @POST("calcul")
     Call<CalculatedPath> calculatePath(@Field("idLine") String idLine, @Field("idStartStop") String idStartStop, @Field("idEndStop") String isEndStop,@Field("time") String time);
-
-
-
-
 }

@@ -18,6 +18,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
     <TextView
+        android:textSize="18dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choisir une ligne"/>
@@ -32,54 +33,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Départ"
+                android:id="@+id/tvDepart" />
             <Spinner
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="150dp"
+                android:layout_gravity="start"
                 android:id="@+id/etDepart"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Départ"
-                android:id="@+id/tvDepart" />
-            <LinearLayout android:id="@+id/linearLayout9" android:layout_height="wrap_content" android:gravity="end" android:layout_width="match_parent">
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Domicile"
-                    android:id="@+id/btnDomicile"/>
-            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="20dp"
+                android:text="Arrivee"
+                android:id="@+id/tvArrivee" />
 
             <Spinner
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="150dp"
+                android:layout_gravity="start"
                 android:id="@+id/etArrivee" />
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Arrivee"
-                android:id="@+id/tvArrivee" />
 
 
-            <LinearLayout android:id="@+id/linearLayout8" android:layout_height="wrap_content" android:gravity="end" android:layout_width="match_parent">
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Travail"
-                    android:id="@+id/btnTravail"/>
-            </LinearLayout>
+
 
 
         </LinearLayout>
