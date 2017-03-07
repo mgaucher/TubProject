@@ -19,7 +19,7 @@ import java.io.IOException;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
- private GoogleMap mMap;
+    private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,133 +66,133 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         });
 
-            ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                    R.array.LigneBusArray, android.R.layout.simple_spinner_item);
-            // Specify the layout to use when the list of choices appears
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
-            // Apply the adapter to the spinner
-            selectLine.setAdapter(adapter);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.LigneBusArray, android.R.layout.simple_spinner_item);
+        // Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
+        // Apply the adapter to the spinner
+        selectLine.setAdapter(adapter);
 
 
-            selectLine.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                @Override
-                public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                    String loadLine = selectLine.getSelectedItem().toString();
-                  loadLine =   loadLine.replaceAll("\\s+", "");
-                  loadLine = loadLine.toLowerCase();
-                    switch (loadLine) {
-                        case "ligne1": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne1, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne2": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne2, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne3": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne3, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne4": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne4, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne5": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne5, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne6": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne6, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne7": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne7, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne8": {
-                          try {
-                           mMap.clear();
-                           KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne8, getApplicationContext());
-                           layer.addLayerToMap();
-                          } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "ligne21": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne21, getApplicationContext());
-                                layer.addLayerToMap();
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-                        case "toutesleslignes": {
-                            try {
-                                mMap.clear();
-                                KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne1, getApplicationContext());
-                                KmlLayer layer2 = new KmlLayer(googleMap, R.raw.ligne2, getApplicationContext());
-                                KmlLayer layer3 = new KmlLayer(googleMap, R.raw.ligne3, getApplicationContext());
-                                KmlLayer layer4 = new KmlLayer(googleMap, R.raw.ligne4, getApplicationContext());
-                                KmlLayer layer5 = new KmlLayer(googleMap, R.raw.ligne5, getApplicationContext());
-                                KmlLayer layer6 = new KmlLayer(googleMap, R.raw.ligne5, getApplicationContext());
-                                KmlLayer layer7 = new KmlLayer(googleMap, R.raw.ligne7, getApplicationContext());
-                                KmlLayer layer8 = new KmlLayer(googleMap, R.raw.ligne8, getApplicationContext());
-                                KmlLayer layer21 = new KmlLayer(googleMap, R.raw.ligne21, getApplicationContext());
+        selectLine.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String loadLine = selectLine.getSelectedItem().toString();
+                loadLine =   loadLine.replaceAll("\\s+", "");
+                loadLine = loadLine.toLowerCase();
+                switch (loadLine) {
+                    case "ligne1": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne1, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne2": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne2, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne3": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne3, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne4": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne4, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne5": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne5, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne6": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne6, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne7": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne7, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne8": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne8, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "ligne21": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne21, getApplicationContext());
+                            layer.addLayerToMap();
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
+                    }
+                    case "toutesleslignes": {
+                        try {
+                            mMap.clear();
+                            KmlLayer layer = new KmlLayer(googleMap, R.raw.ligne1, getApplicationContext());
+                            KmlLayer layer2 = new KmlLayer(googleMap, R.raw.ligne2, getApplicationContext());
+                            KmlLayer layer3 = new KmlLayer(googleMap, R.raw.ligne3, getApplicationContext());
+                            KmlLayer layer4 = new KmlLayer(googleMap, R.raw.ligne4, getApplicationContext());
+                            KmlLayer layer5 = new KmlLayer(googleMap, R.raw.ligne5, getApplicationContext());
+                            KmlLayer layer6 = new KmlLayer(googleMap, R.raw.ligne5, getApplicationContext());
+                            KmlLayer layer7 = new KmlLayer(googleMap, R.raw.ligne7, getApplicationContext());
+                            KmlLayer layer8 = new KmlLayer(googleMap, R.raw.ligne8, getApplicationContext());
+                            KmlLayer layer21 = new KmlLayer(googleMap, R.raw.ligne21, getApplicationContext());
 
-                                layer.addLayerToMap();
-                                layer2.addLayerToMap();
-                                layer3.addLayerToMap();
-                                layer4.addLayerToMap();
-                                layer5.addLayerToMap();
-                                layer6.addLayerToMap();
-                                layer7.addLayerToMap();
-                                layer8.addLayerToMap();
-                                layer21.addLayerToMap();
+                            layer.addLayerToMap();
+                            layer2.addLayerToMap();
+                            layer3.addLayerToMap();
+                            layer4.addLayerToMap();
+                            layer5.addLayerToMap();
+                            layer6.addLayerToMap();
+                            layer7.addLayerToMap();
+                            layer8.addLayerToMap();
+                            layer21.addLayerToMap();
 
-                            } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
-                            break;
-                        }
-
-
+                        } catch (IOException e) {e.printStackTrace();} catch (XmlPullParserException e) {e.printStackTrace();}
+                        break;
                     }
 
 
                 }
 
-                @Override
-                public void onNothingSelected(AdapterView<?> parent) {
 
-                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
 
 
-            });
+        });
 
 
 

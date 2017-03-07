@@ -54,8 +54,6 @@ public class CalculateActivity extends AppCompatActivity {
             }
         });
 
-
-
         btnCalculate = (Button) findViewById(R.id.btnCalculate);
 
         btnCalculate.setOnClickListener(new View.OnClickListener() {
@@ -101,8 +99,6 @@ public class CalculateActivity extends AppCompatActivity {
 
 
         });
-
-
     }
 
     public void getLines(final Context context) {
@@ -132,7 +128,6 @@ public class CalculateActivity extends AppCompatActivity {
                          }
 
                      }
-
         );
     }
     public void getStopById(String idLine,final Context context) {
