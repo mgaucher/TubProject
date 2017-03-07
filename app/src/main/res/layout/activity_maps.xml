@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/btnTimeTable"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:drawableLeft="@android:drawable/ic_menu_my_calendar"
@@ -36,7 +36,7 @@
 
         <Button
             android:id="@+id/btnCalculate"
-            android:layout_width="200dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginLeft="7dp"

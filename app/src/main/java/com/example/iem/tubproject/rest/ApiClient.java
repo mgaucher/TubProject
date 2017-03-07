@@ -22,6 +22,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient  {
 
+    //Retrofit
+
     public static final String BASE_URL = "http://138.68.89.183/TubWebService/web/index.php/";
     private static Retrofit retrofit = null;
 
@@ -64,27 +66,6 @@ public class ApiClient  {
         });
     }
 
-    /*public static void getLines(final Context context){
-
-        Call<Lines> call =  getApiInterface().getLines();
-
-        call.enqueue(new Callback<List<Line>>() {
-            @Override
-            public void onResponse(Call<List<Line>> call, Response<List<Line>> response) {
-                ArrayList<String> listLines = new ArrayList<>();
-            }
-
-            @Override
-            public void onFailure(Call<List<Line>> call, Throwable t) {
-
-            }
-
-        });
-    }*/
-
-
-
-
     public static void getPass(){
 
         Call<List<Pass>> call =  getApiInterface().getPass();
@@ -105,6 +86,4 @@ public class ApiClient  {
 
         });
     }
-
-
 }
