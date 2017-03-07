@@ -16,7 +16,7 @@
         android:layout_height="72dp"
         android:layout_marginBottom="24dp"
         android:layout_gravity="center_horizontal" />
-    <ImageView android:src="@drawable/common_ic_googleplayservices"
+    <ImageView android:src="@mipmap/bus_icon"
         android:layout_width="wrap_content"
         android:layout_height="72dp"
         android:layout_marginBottom="24dp"
