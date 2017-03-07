@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.JsonReader;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -12,9 +13,11 @@ import android.widget.Spinner;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.example.iem.tubproject.Models.CalculatedPath;
 import com.example.iem.tubproject.Models.Line;
 import com.example.iem.tubproject.Models.Stop;
 
+import java.util.Date;
 import java.util.List;
 
 import retrofit2.Call;
@@ -22,6 +25,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 import static android.R.attr.data;
+import static android.R.attr.end;
 import static android.R.attr.timePickerDialogTheme;
 import static com.example.iem.tubproject.rest.ApiClient.getApiInterface;
 
@@ -59,31 +63,59 @@ public class CalculateActivity extends AppCompatActivity {
             }
         });
 
+
+
         btnCalculate = (Button) findViewById(R.id.btnCalculate);
+
         btnCalculate.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                if (spFinishStop.getSelectedItem() != null && spStartStop.getSelectedItem() != null && spChooseLigne.getSelectedItem() != null
+                if (spFinishStop.getSelectedItem() != null && spStartStop.getSelectedItem() != null
                         ) {
-                    timePicker.clearFocus();
+                    String idLine = spChooseLigne.getSelectedItem().toString();
+                    String startStop = spStartStop.getSelectedItem().toString();
+                    String endStop = spFinishStop.getSelectedItem().toString();
+                    String time = timePicker.getCurrentHour().toString()+timePicker.getCurrentMinute().toString();
+                    Call<CalculatedPath> call = getApiInterface().calculatePath(idLine,startStop,endStop,time);
 
-                    Intent myIntent = new Intent(CalculateActivity.this, ResultCalculateActivity.class);
-                    myIntent.putExtra("startStop",spStartStop.getSelectedItem().toString());
-                    myIntent.putExtra("finishStop",spFinishStop.getSelectedItem().toString());
-                    Line line = (Line)spChooseLigne.getSelectedItem();
-                    myIntent.putExtra("numLine",line.getIdLine());
-                    myIntent.putExtra("hour",timePicker.getCurrentHour());
-                    myIntent.putExtra("minute",timePicker.getCurrentMinute());
-                    startActivity(myIntent);
+                    call.enqueue(new Callback<CalculatedPath>() {
+                        @Override
+                        public void onResponse(Call<CalculatedPath> call, Response<CalculatedPath> response) {
+
+                            timePicker.clearFocus();
+
+                            Intent myIntent = new Intent(CalculateActivity.this, ResultCalculateActivity.class);
+                            myIntent.putExtra("startStop",spStartStop.getSelectedItem().toString());
+                            myIntent.putExtra("finishStop",spFinishStop.getSelectedItem().toString());
+                            myIntent.putExtra("numLine",spChooseLigne.getSelectedItem().toString());
+                            myIntent.putExtra("time",timePicker.getCurrentHour().toString()+timePicker.getCurrentMinute().toString());
+                            startActivity(myIntent);
+
+
+
+                        }
+
+                        @Override
+                        public void onFailure (Call <CalculatedPath> call, Throwable t){
+
+                        }
+
+                    });
                 }
                 else
                 {
-                    Toast.makeText(CalculateActivity.this,"Veuillez renseigner toute les informations",
+                    Toast.makeText(CalculateActivity.this,"Veuillez renseigner toutes les informations",
                             Toast.LENGTH_LONG).show();
                 }
-                // force the timepicker to loose focus and the typed value is available
 
+
+/*
+
+*/
             }
+
+
         });
 
 
@@ -102,10 +134,10 @@ public class CalculateActivity extends AppCompatActivity {
                                          Toast.LENGTH_LONG).show();
                              }
 
-                                 spChooseLigne = (Spinner) findViewById(R.id.SpinchooseLigne);
-                                 ArrayAdapter spinnerArrayAdapter = new ArrayAdapter(context,
-                                         android.R.layout.simple_spinner_item, response.body());
-                                 spChooseLigne.setAdapter(spinnerArrayAdapter);
+                             spChooseLigne = (Spinner) findViewById(R.id.SpinchooseLigne);
+                             ArrayAdapter spinnerArrayAdapter = new ArrayAdapter(context,
+                                     android.R.layout.simple_spinner_item, response.body());
+                             spChooseLigne.setAdapter(spinnerArrayAdapter);
 
                          }
 
@@ -132,12 +164,12 @@ public class CalculateActivity extends AppCompatActivity {
                                          Toast.LENGTH_LONG).show();
                              }
 
-                                 spStartStop = (Spinner) findViewById(R.id.etDepart);
-                                 spFinishStop= (Spinner) findViewById(R.id.etArrivee);
-                                 ArrayAdapter spinnerArrayAdapter = new ArrayAdapter(context,
-                                         android.R.layout.simple_spinner_item, response.body());
-                                 spStartStop.setAdapter(spinnerArrayAdapter);
-                                 spFinishStop.setAdapter(spinnerArrayAdapter);
+                             spStartStop = (Spinner) findViewById(R.id.etDepart);
+                             spFinishStop= (Spinner) findViewById(R.id.etArrivee);
+                             ArrayAdapter spinnerArrayAdapter = new ArrayAdapter(context,
+                                     android.R.layout.simple_spinner_item, response.body());
+                             spStartStop.setAdapter(spinnerArrayAdapter);
+                             spFinishStop.setAdapter(spinnerArrayAdapter);
 
                          }
 
