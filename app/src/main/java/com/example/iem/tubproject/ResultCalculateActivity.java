@@ -20,16 +20,17 @@ public class ResultCalculateActivity extends AppCompatActivity {
         String startStop = myIntent.getStringExtra("startStop");
         String finishStop= myIntent.getStringExtra("finishStop");
         String numLine= myIntent.getStringExtra("numLine");
-        String  hour= myIntent.getStringExtra("hour");
-        String  minute= myIntent.getStringExtra("minute");
+        String  timeStart= myIntent.getStringExtra("timeStart");
+        String  timeFinish= myIntent.getStringExtra("timeFinish");
+
         TextView  txtViewStopStart = (TextView) findViewById(R.id.txtViewStopStart);
         txtViewStopStart.setText(startStop);
         TextView  txtViewStopFinish = (TextView) findViewById(R.id.txtViewStopFinish);
         txtViewStopFinish.setText(finishStop);
         TextView  txtViewTimeStart = (TextView) findViewById(R.id.txtViewTimeStart);
-        txtViewTimeStart.setText(hour + ":" + minute);
+        txtViewTimeStart.setText(timeStart);
         TextView  txtViewTimeFinish = (TextView) findViewById(R.id.txtViewTimeFinish);
-        txtViewTimeFinish.setText(hour + ":" + minute);
+        txtViewTimeFinish.setText(timeFinish);
         TextView  txtViewLine = (TextView) findViewById(R.id.txtViewLine);
         txtViewLine.setText("Ligne :" +numLine);
 
@@ -43,7 +44,6 @@ public class ResultCalculateActivity extends AppCompatActivity {
                                           startActivity(intent);
                                       }
                                   });
-        Toast.makeText(this,startStop+finishStop+numLine+hour+minute,
-                Toast.LENGTH_LONG).show();
+
     }
 }

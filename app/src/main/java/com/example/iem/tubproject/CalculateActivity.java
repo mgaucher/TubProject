@@ -16,6 +16,7 @@ import android.widget.Toast;
 import com.example.iem.tubproject.Models.CalculatedPath;
 import com.example.iem.tubproject.Models.Line;
 import com.example.iem.tubproject.Models.Stop;
+import com.google.android.gms.wearable.DataEvent;
 
 import java.util.Date;
 import java.util.List;
@@ -86,16 +87,16 @@ public class CalculateActivity extends AppCompatActivity {
                             timePicker.clearFocus();
 
                             Intent myIntent = new Intent(CalculateActivity.this, ResultCalculateActivity.class);
-                            myIntent.putExtra("startStop",spStartStop.getSelectedItem().toString());
-                            myIntent.putExtra("finishStop",spFinishStop.getSelectedItem().toString());
-                            myIntent.putExtra("numLine",spChooseLigne.getSelectedItem().toString());
-                            myIntent.putExtra("time",timePicker.getCurrentHour().toString()+timePicker.getCurrentMinute().toString());
+                            myIntent.putExtra("startStop",response.body().getIdStopStart());
+                            myIntent.putExtra("finishStop",response.body().getIdStopFinish());
+                            myIntent.putExtra("numLine",response.body().getIdLine());
+                            myIntent.putExtra("timeStart",response.body().getTimeStart());
+                            myIntent.putExtra("timeFinish",response.body().getTimeFinish());
                             startActivity(myIntent);
 
 
 
                         }
-
                         @Override
                         public void onFailure (Call <CalculatedPath> call, Throwable t){
 
